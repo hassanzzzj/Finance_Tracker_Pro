@@ -1,7 +1,21 @@
-# FinanceTracker Pro 💹
+<div align="center">
 
-FinanceTracker Pro is a high-performance, modern desktop application designed to help individuals manage their daily finances, track expenses, and visualize their spending habits. Built with Python and MySQL, it offers a secure and intuitive interface for personal wealth management.
+# 💹 FinanceTracker Pro
+**A Premium Financial Management Suite for Modern Users**
 
+[![Python Version](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
+[![Database](https://img.shields.io/badge/Database-MySQL-orange?logo=mysql&logoColor=white)](https://www.mysql.com/)
+[![UI Framework](https://img.shields.io/badge/UI-CustomTkinter-blueviolet)](https://github.com/TomSchimansky/CustomTkinter)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+---
+
+[Explore Features](#-key-features) • [Installation](#-quick-setup) • [Screenshots](#-visual-tour) • [Tech Stack](#-core-technologies)
+
+</div>
+
+## 📖 Overview
+**FinanceTracker Pro** is a sophisticated desktop solution engineered for high-performance personal wealth management. It bridges the gap between complex accounting and user-friendly interfaces, providing real-time insights into your financial health with a sleek, modern aesthetic.
 ## ✨ Key Features
 
 * **Secure Authentication:** User registration and login system with password protection.
@@ -56,20 +70,29 @@ python main.py
 ```
 
 📸 Screenshots:
-Login Page:
+</br>
+<div align="center">
 ![Login](screenshots/Login.png)
 
-Signup Page:
+
+</br>
+
 ![Signup](screenshots/Signup.png)
 
-Dashboard:
+</br>
+
 ![Dashboard](screenshots/dashboard.png)
 
-Adding New Transaction Window:
+</br>
+
 ![Adding_transaction](screenshots/Adding_transaction.png)
 
-Saving Previous Records:
+</br>
+
 ![Records](screenshots/Records.png)
+</br>
+</br></div>
 
-
-                Developed with ❤️ by Hassan
+<div align="center">  Developed with ❤️ by Hassan</br>
+-------------------------------------------------------------</br>
+If you find this project useful, please consider giving it a ⭐!</div>
