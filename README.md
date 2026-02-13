@@ -57,9 +57,10 @@ python main.py
 
 📸 Screenshots:
 
-Note: Add your application screenshots here (e.g., ![Dashboard](screenshots/dash.png)) to make the documentation more visual and professional.
+![Login](screenshots/Login.png)
+![Signup](screenshots/Signup.png)
+![Dashboard](screenshots/dashboard.png)
+![Adding_transaction](screenshots/Adding_transaction.png)
+![Records](screenshots/Records.png)
 
-📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-Developed with ❤️ by Your Name
+        Developed with ❤️ by Hassan
