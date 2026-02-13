@@ -56,11 +56,20 @@ python main.py
 ```
 
 📸 Screenshots:
-
+Login Page:
 ![Login](screenshots/Login.png)
+
+Signup Page:
 ![Signup](screenshots/Signup.png)
+
+Dashboard:
 ![Dashboard](screenshots/dashboard.png)
+
+Adding New Transaction Window:
 ![Adding_transaction](screenshots/Adding_transaction.png)
+
+Saving Previous Records:
 ![Records](screenshots/Records.png)
 
-        Developed with ❤️ by Hassan
+
+                Developed with ❤️ by Hassan
