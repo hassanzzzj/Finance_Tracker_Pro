@@ -7,7 +7,7 @@ FinanceTracker Pro is a high-performance, modern desktop application designed to
 * **Secure Authentication:** User registration and login system with password protection.
 * **Dynamic Dashboard:** Real-time overview of Total Balance, Total Income, and Total Expenses.
 * **Visual Analytics:** Interactive Pie Charts powered by Matplotlib to show expense breakdowns by category.
-* **Transaction Management:** Quickly add income or expense entries with categorized tags (Food, Rent, Salary, etc.).
+* **Transaction Management:** Quickly add income or expense entries with categorized tags.
 * **Data Export:** Export your financial reports into **CSV format** based on custom date ranges.
 * **Modern UI:** A sleek, dark-themed interface built using the `CustomTkinter` library.
 
@@ -18,33 +18,48 @@ FinanceTracker Pro is a high-performance, modern desktop application designed to
 * **Database:** MySQL
 * **Data Processing:** Pandas
 * **Visualization:** Matplotlib
-* **Utilities:** TkCalendar (for date selection)
 
-## 🚀 Getting Started
+## 🚀 Installation & Setup
 
-### Prerequisites
+Follow these steps to get the project running on your local machine:
 
-1.  **Python Installed:** Ensure you have Python 3.7+ installed.
-2.  **MySQL Server:** You need a running MySQL instance.
-3.  **Database Setup:** Create a database named `finance_db` and the following tables:
+### 1. Clone the Repository
+```bash
+git clone [https://github.com/yourusername/FinanceTrackerPro.git](https://github.com/yourusername/FinanceTrackerPro.git)
+cd FinanceTrackerPro
+2. Install Dependencies
+Make sure you have pip installed, then run:
 
-```sql
+Bash
+pip install -r requirements.txt
+3. Database Configuration
+Open your MySQL terminal and create the database:
+
+SQL
 CREATE DATABASE finance_db;
+Update the credentials in the script (Host, User, Password) or set your environment variables:
 
-USE finance_db;
+DB_HOST
 
-CREATE TABLE users (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    username VARCHAR(50) UNIQUE NOT NULL,
-    password VARCHAR(255) NOT NULL
-);
+DB_USER
 
-CREATE TABLE transactions (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    user_id INT,
-    amount DECIMAL(10,2),
-    category VARCHAR(50),
-    type ENUM('Income', 'Expense'),
-    date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    FOREIGN KEY (user_id) REFERENCES users(id)
-);
+DB_PASSWORD
+
+DB_NAME
+```
+
+
+
+4. Run the Application
+```
+python main.py
+```
+
+📸 Screenshots:
+
+Note: Add your application screenshots here (e.g., ![Dashboard](screenshots/dash.png)) to make the documentation more visual and professional.
+
+📄 License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Developed with ❤️ by Your Name
